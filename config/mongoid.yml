@@ -9,11 +9,11 @@ defaults: &defaults
 
 development:
   <<: *defaults
-  database: goodberry_dev
+  database: livingwatercrc_dev
 
 test:
   <<: *defaults
-  database: goodberry_test
+  database: livingwatercrc_test
 
 # set these environment variables on your prod server
 production:
